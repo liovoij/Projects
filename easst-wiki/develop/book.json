@@ -1,0 +1,42 @@
+{
+    "title":"EASST 开发手册",
+    "author":"easst",
+    "description":"wiki easst article",
+    "language":"zh-hans",
+    "gitbooke":"3.2.3",
+    "plugins": [
+        "-highlight",
+        "-sharing",
+        "expandable-chapters",
+        "ancre-navigation",
+        "-font-settings",
+        "favicon@0.0.2",
+        "hide-element",
+        "yahei",
+        "alerts"
+    ],
+    "pluginsConfig": {
+        "theme-default": {
+            "showLevel": true
+        },
+        "hide-element": {
+            "elements": [".gitbook-link"]
+        },
+        "fontSettings": {
+            "family": "msyh",
+            "size": 2
+        }
+    },
+    "pdf": {
+        "toc": true,
+        "pageNumbers": true,
+        "fontSize": 14,
+        "paperSize": "a4",
+        "margin": {
+          "right": 30,
+          "left": 30,
+          "top": 30,
+          "bottom": 50
+        }
+    }
+}
